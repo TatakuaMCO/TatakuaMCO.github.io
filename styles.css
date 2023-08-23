@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(111, 112, 206);
+}
+
+/********** Navegador *****/
+
+.navegador{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    border: 0.5vw solid rgb(30, 15, 288);
+    margin: 10px;
+    padding: 3px;
+}
+
+.navegador > *{
+    padding: 0.5vw;
+    border: 5px solid black;
+}
+
+.navegador-izquierda img,
+.navegador-derecha img{
+    width: 100%;    
+    height: 10vw;
+}
+
+.navegador-centro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegador-centro > * {
+    padding: 0.5vw;
+    font-size: 1.75vw;
+}
+
+.navegador-centro > * > *{
+    color: black;
+    font-weight: bolder;
+}
+
+/******** Contenido 0 ****/
+.contenido-0{
+    background-color: rgb(255, 115, 0);
+    color: yellow;
+    text-align: center;
+}
+
+.contenido-0 .comienzo{
+    font-size: 4vw;
+    font-weight: bolder;
+}
+
+.contenido-0 .termino{
+    font-size: 4vw;
+    font-weight: bolder;
+}
+
+.contenido-0 img{
+    width: 35%;
+    height: auto;
+}
+
+/******* Contenido 1 *****/
+
+.contenido-1{
+    background-color: lightgreen;
+}
+
+.contenido-1 h1{
+    justify-content: center;
+    color: blue;
+    font-size: 4vw;
+    font-weight: bolder;
+}
+
+.contenido-1 > *{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.contenido-1 > * > img{
+    width: 30vw;
+    height: 30vw;
+    border: 5px solid white;
+}
+
+.contenido-1 > * > .detalles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid black;
+    margin: 5vw;
+
+    color: brown;
+    font-weight: bolder;
+    font-size: 2.5vw;
+}
+
+/************ Contenido 2*************/
+.contenido-2{
+    background-color: red;
+}
+
+.contenido-2 > h1{
+    color: white;
+}
+
+
+/*************** Contenido 3 ******************/
+.contenido-3{
+    background-color: white;
+}
+
+/**************** COntenido 4**********************/
+.contenido-4{
+    background-color: aqua;
+}
+
+/****************** Contenido 5**************/
+.contenido-5{
+    background-color: rgb(7, 177, 7);
+}
+
+
+
+
+
+
+
+
+
